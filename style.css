@@ -1,0 +1,175 @@
+
+  body {
+    font-family: 'Quicksand', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+   
+  }
+
+  html{
+    background: linear-gradient(to bottom, #ffffff 300px, #62affd); /* Gradient latar belakang dari atas ke bawah */
+   
+  }
+  
+  /* Reset default margins and paddings */
+  body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header section */
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the profile image */
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the main section */
+  section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  section .bio {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+
+  
+ header p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  /* Style the navigation */
+  nav {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    box-shadow: 4px 4px 0px 0px #000; /* Menambahkan shadow */
+    border-radius: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Mengubah posisi ikon ke kiri */
+    width: 100%;
+  }
+  
+  
+  nav ul li a i {
+    margin-right: 5px;
+  }
+  
+  nav ul li a span {
+    font-size: 16px;
+    flex-grow: 1;
+    text-align: center; /* Mengubah posisi teks ke tengah */
+  }
+  
+  nav ul li a:hover {
+    color: #fff; /* Mengubah warna teks menjadi putih */
+  }
+  
+  nav ul li a:hover span {
+    color: #fff; /* Mengubah warna teks menjadi putih */
+    font-weight: bold; /* Menambahkan efek teks bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Menambahkan shadow hitam pada teks */
+  }
+  
+  nav ul li a.facebook:hover i {
+    color: #4267B2; /* Warna asli Facebook */
+  }
+  
+  nav ul li a.twitter:hover i {
+    color: #1DA1F2; /* Warna asli Twitter */
+  }
+  
+  nav ul li a.instagram:hover i {
+    color: #C13584; /* Warna asli Instagram */
+  }
+  
+  nav ul li a.linkedin:hover i {
+    color: #2867B2; /* Warna asli LinkedIn */
+  }
+  
+  nav ul li a.youtube:hover i {
+    color: #FF0000; /* Warna asli YouTube */
+  }
+  
+  nav ul li a.facebook:hover {
+    background: linear-gradient(to right, #ffffff, #4267B2);
+    /* Gradient latar belakang Facebook */
+  }
+  
+  nav ul li a.twitter:hover {
+    background: linear-gradient(to right, #ffffff, #1DA1F2);
+    /* Gradient latar belakang Twitter */
+  }
+  
+  nav ul li a.instagram:hover {
+    background: linear-gradient(to right, #ffffff, #C13584);
+    /* Gradient latar belakang Instagram */
+  }
+  
+  nav ul li a.linkedin:hover {
+    background: linear-gradient(to right, #ffffff, #2867B2);
+    /* Gradient latar belakang LinkedIn */
+  }
+  
+  nav ul li a.youtube:hover {
+    background: linear-gradient(to right, #ffffff, #FF0000);
+    /* Gradient latar belakang YouTube */
+  }
+  
+  /* Style the footer */
+  footer {
+    color: #fff;
+    margin: 50px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 10px;
+  }
+  
